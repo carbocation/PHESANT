@@ -106,7 +106,7 @@ getConfounderNames <- function() {
 	##### first get vector of confounder names
 
         # age and sex
-        confNames = c(opt$userId, "x21022_0_0", "x31_0_0")
+        confNames = c(opt$userId, "x21003_0_0", "x31_0_0")
 
         # if genetic trait of interest then adjust for genotype chip
         # and also let user choose sensitivity analysis that also adjusts for top 10 genetic principal components and assessment centre
