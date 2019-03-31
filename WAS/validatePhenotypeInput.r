@@ -40,9 +40,9 @@ validatePhenotypeInput <- function() {
 	if (opt$save==FALSE & is.null(opt$confounderfile)) {
 
 	## confounder variables exist in pheno file
-	idx = which(names(phenoIn) == "x21022_0_0");
+	idx = which(names(phenoIn) == "x21003_0_0");
 	if (length(idx)==0) {
-                stop("phenotype file doesn't contain required age colunn: x21022_0_0", call.=FALSE)
+                stop("phenotype file doesn't contain required age colunn: x21003_0_0", call.=FALSE)
         }
 
 	idx = which(names(phenoIn) == "x31_0_0");
